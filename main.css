@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+
+/*-----------HEADER---------- */
+
+header{
+    background-color: antiquewhite;
+    position: fixed;
+    width: 99%;
+}
+
+.menu{
+    display: inline-block;
+    margin-left: 285px;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-left: 5rem;
+    border: 3px solid green;
+    padding: 5px;
+    background-color: green;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#loc-tienda{
+    margin-left: 250px;
+}
+
+.titulo{
+    display: inline-block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 2rem;
+    position: fixed;
+    top: 35px;
+
+}
+
+.logo{
+    display: inline-block;
+}
+
+.logo img{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    top: 0.7rem;
+    left: 1rem;
+}
+
+/*-----------CUERPO---------- */
+
+.promos{
+    width: 100%;
+    height: 600px;
+    padding-top: 150px;
+}
+
+.promo1{
+    display: inline-block;
+    width: 49.5%;
+    height: 420px;
+}
+
+.promo2{
+    display: inline-block;
+    width: 49.5%;
+    height: 420px;
+}
+
+.promo3{
+    display: inline-block;
+    width: 49.5%;
+    height: 420px;
+    margin-top: 2rem;
+}
+
+.promo4{
+    display: inline-block;
+    width: 49.5%;
+    height: 420px;
+    margin-top: 2rem;
+}
+
+
+.promo1 img{
+    width: 100%;
+    height: 100%; 
+}
+
+.promo2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.promo3 img{
+    width: 100%;
+    height: 100%; 
+}
+
+.promo4 img{
+    width: 100%;
+    height: 100%;
+}
+
+/*--------------FONDO----------------*/
+
+.menu-fondo{
+    margin-top: 480px;
+    width: 100%;
+}
+
+.menu-fondo ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.menu-fondo ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 12%;
+}
